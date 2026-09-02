@@ -28,8 +28,8 @@ module mux_64x1(
     output Y
 );
 
-wire W[0:15],
-wire x[0:3],
+wire W[0:15];
+wire x[0:3];
 // instantiate 21 (16 + 4 + 1) 4x1 muxs to get a singular 64x1 mux
 
 // 1st 16
@@ -58,7 +58,7 @@ mux_4x1 m20(W[12] , W[13] , W[14] , W[15] , S[2] , S[3] , X[3]);
 
 
 // last 1
-mux_4x1 m21(X[0] , X[1] , X[2] ,X[3] , X[4] , S[4] , S[5], Y);
+mux_4x1 m21(X[0] , X[1] , X[2] ,X[3] , S[4] , S[5], Y);
 
 
 endmodule
