@@ -23,8 +23,8 @@ endmodule
 module mux_64x1(
     // to be worked upon tomorrow!!(done!!!)
     // instansiate 23 4x1 muxs to get a singular 64x1 mux
-    input I[0:63],
-    input S[0:5],
+    input [0:63] I,
+    input [0:5] S,
     output Y
 );
 
