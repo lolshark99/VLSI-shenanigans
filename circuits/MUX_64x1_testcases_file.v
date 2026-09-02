@@ -1,4 +1,4 @@
-module tb_mux64x1;
+module mux_64x1;
 
 reg [63:0] I;
 reg [5:0] S;
