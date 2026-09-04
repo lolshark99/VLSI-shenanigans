@@ -3,4 +3,4 @@ module assign_use(
     output c
 );
 assign c = a | b;
-endmodule
+endmodule 
