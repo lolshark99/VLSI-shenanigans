@@ -1,5 +1,5 @@
 module assign_use(
-    reg a , b,
-    wire c,
+    input a , b,
+    output c,
 );
 endmodule
