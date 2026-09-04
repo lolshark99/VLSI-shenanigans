@@ -2,7 +2,6 @@ module assign_use_tb
     reg Y , X,
     wire Z;
 ;
-endmodule
 
 assign_use a1(
     .a(Y), // for my understanding this means that the port a of the module i made is connected to the testbench signal Y
@@ -22,3 +21,5 @@ initial begin
     $dumpfile("Waveforms.vcd");
     $dumpvars(0 , assign_use_tb);
 end    
+
+endmodule
