@@ -5,7 +5,7 @@ module assign_use_tb(
 endmodule
 
 assign_use a1(
-    .a(Y),
+    .a(Y), // for my understanding this means that the port a of the module i made is connected to the testbench signal Y
     .b(X),
     .c(Z)
 );
