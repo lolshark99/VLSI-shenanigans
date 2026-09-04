@@ -11,6 +11,7 @@ assign_use a1(
 );
 
 initial begin
+    // this below part is basically making the truth table and #10 means a delay
     Y = 0 ; X = 0;
     #10Y = 0 ; X = 1;
     #10Y = 1 ; X = 0;

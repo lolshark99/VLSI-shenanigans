@@ -1,5 +1,5 @@
 module assign_use(
     input a , b,
-    output c,
+    output c
 );
 endmodule
