@@ -20,7 +20,7 @@ initial begin
     for(k = 0 ; k < 16 ; k++)begin
         I = k;
         #10;
-        $display(" %b  | %b", I, O);
+        $display(" %b  | %b", R, W);
     end
     $finish;
     
