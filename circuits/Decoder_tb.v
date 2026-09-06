@@ -3,12 +3,12 @@ module Decoder_tb;
 reg [0:3] R;
 wire [0:15] W;
 
-decoder4x16(
+decoder4x16 d1(
     .I(R),
     .O(W)
 );
 
-intger k;
+integer k;
 
 initial begin
     $display("           This is a Decoder          ");
